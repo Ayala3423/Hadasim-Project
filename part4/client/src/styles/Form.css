@@ -1,0 +1,66 @@
+/* Form.css */
+.max-w-md {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2d3748;
+}
+
+label {
+    font-size: 1rem;
+    color: #4a5568;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3182ce;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2b6cb0;
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.message.success {
+    background-color: #c6f6d5;
+    color: #38a169;
+}
+
+.message.error {
+    background-color: #feb2b2;
+    color: #e53e3e;
+}

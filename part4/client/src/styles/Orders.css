@@ -1,0 +1,79 @@
+.max-w-md {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2d3748;
+}
+
+.order-item {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fafafa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.order-item p {
+    font-size: 1rem;
+    color: #4a5568;
+    margin-bottom: 8px;
+}
+
+.order-item.status-waiting {
+    border: 2px solid #f6ad55;
+    background-color: #fff8e1;
+}
+
+.order-item.status-completed {
+    border: 2px solid #48bb78;
+    background-color: #e6fffa;
+}
+
+.order-item.status-confirmation {
+    border: 2px solid #3182ce;
+    background-color: #ebf8ff;
+}
+
+.order-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.status-button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.status-button.waiting {
+    background-color: #f6ad55;
+    color: white;
+}
+
+.status-button.completed {
+    background-color: #48bb78;
+    color: white;
+}
+
+.status-button.confirmation {
+    background-color: #3182ce;
+    color: white;
+}
+
+.status-button:hover {
+    opacity: 0.8;
+}

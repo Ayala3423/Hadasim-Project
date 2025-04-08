@@ -1,0 +1,45 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 98vh;
+    background-color: #f7fafc;
+    font-family: Arial, sans-serif;
+}
+
+.home-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 20px;
+}
+
+.home-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.home-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.manager-btn {
+    background-color: #3182ce;
+    color: white;
+}
+
+.supplier-btn {
+    background-color: #48bb78;
+    color: white;
+}
+
+.home-btn:hover {
+    opacity: 0.8;
+}
